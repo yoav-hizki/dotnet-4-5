@@ -1,0 +1,3 @@
+COMMANDS__INSTALL=
+COMMANDS__BUILD=dotnet build src/SimpleApp/SimpleApp.csproj
+COMMANDS__CLEAN_AND_BUILD=dotnet clean src/SimpleApp/SimpleApp.csproj && dotnet build src/SimpleApp/SimpleApp.csproj

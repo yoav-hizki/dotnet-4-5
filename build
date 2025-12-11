@@ -1,0 +1,10 @@
+#!/bin/bash
+# Build script for SimpleApp .NET 8 Console Application
+
+set -e
+
+echo "Building SimpleApp..."
+dotnet build src/SimpleApp/SimpleApp.csproj
+
+echo ""
+echo "Build completed successfully!"
